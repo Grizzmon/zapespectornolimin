@@ -11,14 +11,14 @@ export function Pricing() {
             Pronto para o próximo nível?
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-pretty text-base leading-relaxed text-white/85 md:text-lg">
-            Garanta agora o seu acesso à versão PRO PLUS e aproveite tudo com
+            Garanta agora o seu acesso à versão PRO PLUS NO LIMITS e aproveite tudo com
             desconto especial de lançamento.
           </p>
 
           <div className="mt-8">
-            <p className="text-sm text-white/70 line-through">De R$ 197</p>
+            <p className="text-sm text-white/70 line-through">De R$ 789,99</p>
             <p className="font-display text-5xl font-extrabold text-white">
-              R$ 47
+              R$ 159,99
             </p>
           </div>
 
