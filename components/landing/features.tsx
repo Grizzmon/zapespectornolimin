@@ -2,16 +2,16 @@ import { Reveal } from './reveal'
 
 const features = [
   {
-    title: 'Simples de usar',
-    desc: 'Tudo pronto em poucos cliques. Uma experiência direta, sem complicação e feita para o seu dia a dia.',
+    title: 'O mais completo',
+    desc: 'Tudo pronto em poucos cliques. Monitoramento avançado de primeira Linha.',
   },
   {
-    title: 'Rápido e completo',
+    title: 'Inteligencia Artificial Que nao omite',
     desc: 'Todos os recursos da versão PRO PLUS reunidos em um só lugar, com desempenho de sobra.',
   },
   {
     title: 'Acesso imediato',
-    desc: 'Compre e comece a usar na hora. Sem espera, com suporte e atualizações incluídas.',
+    desc: 'Obtenha  e comece a usar na hora. Sem espera, com suporte humanizado e atualizações incluídas.',
   },
 ]
 
