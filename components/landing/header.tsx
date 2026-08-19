@@ -9,7 +9,7 @@ export function Header() {
           href="#comprar"
           className="hidden rounded-full bg-accent-yellow px-5 py-2 text-sm font-bold text-[#2b1d00] transition hover:brightness-95 sm:inline-block"
         >
-          Comprar agora
+          Obtenha Agora
         </a>
       </div>
     </header>
