@@ -1,6 +1,6 @@
 import { Reveal } from './reveal'
 
-const CHECKOUT_URL = '#comprar'
+const CHECKOUT_URL = 'https://pay.hotmart.com/H107219899X'
 
 export function Pricing() {
   return (
@@ -22,12 +22,10 @@ export function Pricing() {
             </p>
           </div>
 
-         <a
-  href="https://pay.hotmart.com/H107219899X"
-  className="mt-8 inline-block rounded-full bg-accent-yellow px-10 py-4 text-base font-bold text-[#2b1d00] shadow-lg transition hover:brightness-95 active:scale-[0.98]"
->
-  Garantir Acesso Agora
-</a>
+          <a
+            href={CHECKOUT_URL}
+            className="mt-8 inline-block rounded-full bg-accent-yellow px-10 py-4 text-base font-bold text-[#2b1d00] shadow-lg transition hover:brightness-95 active:scale-[0.98]"
+          >
             Garantir meu Acesso PRO PLUS NO LIMITS
           </a>
 
