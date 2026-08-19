@@ -12,12 +12,12 @@ export function Hero() {
         {/* texto */}
         <div className="animate-fade-up">
           <h1 className="font-display text-4xl font-extrabold leading-tight text-balance md:text-5xl lg:text-6xl">
-            A versão que muda tudo:{' '}
-            <span className="text-brand-light">PRO PLUS</span>
+            AQUI VOCE PARTE O SEU CORAÇAO:{' '}
+            <span className="text-brand-light">PRO PLUS NO LIMIS</span>
           </h1>
           <p className="mt-5 max-w-md text-base leading-relaxed text-muted-foreground md:text-lg">
-            Tudo que você precisa em um só lugar, com uma experiência simples,
-            rápida e feita para o próximo nível. Garanta o seu acesso agora.
+            Feito para quem quer a verdade completa e crua, voce se acha uma pessoa corajosa...
+           tenha acesso a todas as feramentas de forma rápida e feita para monitoramento total. Garanta o seu acesso agora.
           </p>
           <a
             href="#comprar"
