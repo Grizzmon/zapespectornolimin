@@ -1,8 +1,24 @@
+'use client'
+
 import { Reveal } from './reveal'
 
 const CHECKOUT_URL = 'https://pay.hotmart.com/H107219899X'
+const PRODUTO_ID = '8340486'
 
 export function Pricing() {
+  const handleCheckoutClick = () => {
+    // Dispara o evento de InitiateCheckout para o Meta Pixel com o ID correspondente
+    if (typeof window !== 'undefined' && (window as any).fbq) {
+      (window as any).fbq('track', 'InitiateCheckout', {
+        value: 159.99,
+        currency: 'BRL',
+        content_name: 'Acesso PRO PLUS NO LIMITS',
+        content_ids: [PRODUTO_ID],
+        content_type: 'product'
+      });
+    }
+  }
+
   return (
     <section id="comprar" className="px-5 py-8 pb-24">
       <Reveal className="mx-auto max-w-5xl">
@@ -24,6 +40,7 @@ export function Pricing() {
 
           <a
             href={CHECKOUT_URL}
+            onClick={handleCheckoutClick}
             className="mt-8 inline-block rounded-full bg-accent-yellow px-10 py-4 text-base font-bold text-[#2b1d00] shadow-lg transition hover:brightness-95 active:scale-[0.98]"
           >
             Garantir meu Acesso PRO PLUS NO LIMITS
